@@ -23,24 +23,34 @@ header img {
 
 header button,
 .button_container button {
-  background-color: #eb268f;
-  border: 0;
   padding-inline: 24px;
   padding-block: 12px;
   border-radius: 6px;
   font-weight: 600;
-  color: white;
   cursor: pointer;
   transition: all 0.1s ease;
-  border: 2px solid transparent;
   width: 100%;
 }
 
-header button:hover,
-.button_container button:hover {
+.primary_button {
+  border: 0;
+  background-color: #eb268f;
+  color: white;
+}
+
+.primary_button:hover {
+  background-color: #bc1e72;
+}
+
+.secondary_button {
+  border: 2px solid #eb268f;
   background-color: transparent;
-  border-color: #eb268f;
   color: #eb268f;
+}
+
+.secondary_button:hover {
+  border: 2px solid #bc1e72;
+  color: #bc1e72;
 }
 
 .main_container {
@@ -80,7 +90,7 @@ header button:hover,
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  gap: 8px;
+  gap: 16px;
 }
 
 @media only screen and (max-width: 760px) {

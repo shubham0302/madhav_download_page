@@ -6,7 +6,7 @@ const Home = () => {
       <header>
         <img src="/Images/madhav_lic.jpg" alt="logo" />
         <a href="https://www.madhavinsurance.in" target="_blank" rel="noreferrer">
-          <button>Visit Website</button></a>
+          <button className='primary_button'>Visit Website</button></a>
       </header>
 
       <div className='main_container'>
@@ -18,11 +18,11 @@ const Home = () => {
             <h2>Staff App</h2>
             <div className='button_container'>
               <a href="/Apk/Madhav_Staff_v8.apk" download>
-                <button>Download (Recommended)</button>
+                <button className='primary_button'>Download (Recommended)</button>
               </a>
 
               <a href="/Apk/Madhav_Staff_v7.apk" download>
-                <button>Download </button>
+                <button className='secondary_button'>Download </button>
               </a>
             </div>
           </div>
@@ -31,11 +31,11 @@ const Home = () => {
             <h2>Head App</h2>
             <div className='button_container'>
               <a href="/Apk/Madhav_Head_v8.apk" download>
-                <button>Download (Recommended)</button>
+                <button className='primary_button'>Download (Recommended)</button>
               </a>
 
               <a href="/Apk/Madhav_Head_v7.apk" download>
-                <button>Download </button>
+                <button className='secondary_button'>Download </button>
               </a>
             </div>
           </div>
