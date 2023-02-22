@@ -5,7 +5,7 @@ const Home = () => {
     <section className='home_section'>
       <header>
         <img src="/Images/madhav_lic.jpg" alt="logo" />
-        <a href="https://www.madhavinsurance.in" target="_blank">
+        <a href="https://www.madhavinsurance.in" target="_blank" rel="noreferrer">
           <button>Visit Website</button></a>
       </header>
 
