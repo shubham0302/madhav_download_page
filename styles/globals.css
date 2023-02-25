@@ -38,6 +38,10 @@ header button,
   color: white;
 }
 
+.min_width {
+  min-width: 220px;
+}
+
 .primary_button:hover {
   background-color: #bc1e72;
 }

@@ -30,13 +30,17 @@ const Home = () => {
           <div className='card'>
             <h2>Head App</h2>
             <div className='button_container'>
-              <a href="/Apk/Madhav_Head_v8.apk" download>
+              <a href="/Apk/Madhav_Head.apk" download>
+                <button className='primary_button min_width'>Download</button>
+              </a>
+
+              {/* <a href="/Apk/Madhav_Head_v8.apk" download>
                 <button className='primary_button'>Download (Recommended)</button>
               </a>
 
               <a href="/Apk/Madhav_Head_v7.apk" download>
                 <button className='secondary_button'>Download </button>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
